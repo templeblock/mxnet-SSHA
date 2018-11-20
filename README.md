@@ -19,6 +19,11 @@ Evaluation on WIDER FACE:
 
 3. Type `make` to build necessary cxx libs.
 
+### traindata
+1. mkdir data
+2. ln -s $(widerface dir) widerface
+3. You should make keypoint label 'wider_face_train_bbx_kp_gt.txt' instead of 'wider_face_train_bbox_gt.txt'
+
 ### Training
 
 ```
