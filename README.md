@@ -1,14 +1,16 @@
-# mxnet-SSH
-Reproduce [SSH](https://arxiv.org/abs/1708.03979) (Single Stage Headless Face Detector) with MXNet.
+# mxnet-SSHA
 
 Original Caffe code: [https://github.com/mahyarnajibi/SSH](https://github.com/mahyarnajibi/SSH)
+
+Deepinsight SSH Mxnet code: [https://github.com/deepinsight/mxnet-SSH](https://github.com/deepinsight/mxnet-SSH)
 
 Evaluation on WIDER FACE:
 
 | Impelmentation     | Easy-Set | Medium-Set | Hard-Set |
 | ------------------ | -------- | ---------- | -------- |
 | Original Caffe SSH | 0.93123  | 0.92106    | 0.84582  |
-| Our SSH Model      | 0.93489  | 0.92281    | 0.84525  |
+| Deepinsight SSH Model      | 0.93489  | 0.92281    | 0.84525  |
+| Our SSHA Model      | -  | -    | -  |
 
 ### Installation
 1. Clone the repository.
@@ -22,5 +24,3 @@ Evaluation on WIDER FACE:
 ```
 python train_ssh.py
 ```
-
-For more information, check our insightface repository.
